@@ -134,7 +134,7 @@
         <td>
           <br>
           <div class="columns is-centered has-text-centered">
-            <img src="./static/images/01Opening Image.png" style="width: 50.0%;"></img>
+            <img src="./static/images/01Opening Image.png" style="width: 40.0%;"></img>
           </div>
         </td>
       </tr>
@@ -230,25 +230,31 @@
         <div class="column is-full-width">
           <h2 class="title is-3", style="text-align: center;">Planning Preliminaries and Classical Planning Algorithms for Robotic Manipulators</h2>
               <div class="columns">
-                  <div class="column">
-                    <img src="./static/images/03. PlanningDef.png" style="width: 100.0%;"></img>
+                  <div class="column is-centered has-text-centered">
+                    <img class="center" src="./static/images/03. PlanningDef.png" style="width: 100.0%;"></img>
                     <p style="text-align: center; font-size: 14px">Workspace vs. configuration space for a 2-DOF planar manipulator.</p>
                   </div>
-                  <div class="column">
-                    <img src="./static/images/04. SamplingPrimitives.png" style="width: 80.0%;"></img>
+                  <div class="column is-centered has-text-centered">
+                    <img class="center" src="./static/images/04. SamplingPrimitives.png" style="width: 80.0%;"></img>
                       <p style="text-align: center; font-size: 14px">Algorithmic primitives (I. Sampling, II. Steering, and III. Collision Checking)
                         of sampling-based planning algorithms.
                       </p>
                   </div>
               </div>
               <div class="columns">
-                <div class="column">
-                  <video class="center" playsinline autoplay loop controls muted src="./static/videos/MPNet.mp4" width="100%" style="border-radius:10px;"></video>
-                  <p style="text-align: center; font-size: 14px">MPNet (x4)</p>
+                <div class="column is-centered has-text-centered">
+                  <img class="center" src="./static/images/05. OptimizationBased.png" style="width: 80.0%;"></img>
+                  <p style="text-align: center; font-size: 14px">An abstract illustration demonstrating how global trajectory optimization techniques
+                    rely on the initial trajectory to warm-start the optimization process. This highlights that even slightly different initializations 
+                    can lead to distinct final trajectories.
+                  </p>
               </div>
-              <div class="column">
-                <video class="center" playsinline autoplay loop controls muted src="./static/videos/SIMPNet.mp4" width="100%" style="border-radius:10px;"></video>
-                <p style="text-align: center; font-size: 14px">SIMPNet (x4)</p>
+              <div class="column is-centered has-text-centered">
+                <img class="center" src="./static/images/06. CollisionChecking.png" style="width: 100.0%;"></img>
+                <p style="text-align: center; font-size: 14px">(a) Calculating the distance to collision via geometric collision checkers is computationally expensive. 
+                  A common practice is to utilize convex geometric primitives (e.g., spheres, cylinders) to enclose manipulator links and joints for efficient collision
+                  querying. (b) Spatial decomposition (SD) methods are commonly utilized for point-cloud
+                  processing and workspace partitioning for collision detection. Figure taken from reviewed papers in the original manuscript</p>
             </div>
             </div>
           </div>
